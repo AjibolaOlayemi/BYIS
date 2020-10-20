@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="100">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:padding="8dp"
+        android:src="@drawable/meal_pic"
+        tools:srcCompat="@drawable/meal_pic" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="85">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_food"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:text="@string/food_meal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_food_nutrients"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:text="@string/nutrients_food"/>
+
+
+    </LinearLayout>
+</LinearLayout>

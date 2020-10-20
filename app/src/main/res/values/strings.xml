@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BYIS</string>
+    <string name="build_your_immune_system">Build.Your.Immune.System</string>
+    <string name="healthy_drinks">Healthy Drinks</string>
+    <string name="educate_your_friend">Educate Your Friend</string>
+    <string name="healthy_eating">Healthy Eating</string>
+    <string name="educate_friend_family">Why not educate your friends and family?</string>
+    <string name="benefits_eating_healthy">Find out the benefits of drinking water</string>
+    <string name="discover_eating_healthy">Discover what eating healthy does for you</string>
+    <string name="food_meal">Food</string>
+    <string name="nutrients_food">Nutrients</string>
+    <string name="error_data_message">Error</string>
+    <string name="drinks_item">Drinks</string>
+    <string name="drink_benefit">Benefit</string>
+</resources>
